@@ -26,6 +26,7 @@ ul {
   padding: 0 15px;
 }
 
+
 .header__content {
   background: url(../img/header-bg.jpg);
   background-size: cover;
@@ -57,3 +58,35 @@ ul {
    color: #fff;
    display: flex;
 }
+
+.nav {
+  background: #322E41;
+}
+
+.nav__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.nav__menu {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  
+}
+
+.nav__links {
+  color: #fff;
+  transition: 0.5s;
+  padding: 23px 0;
+  border-bottom: 2px solid transparent;
+  display: block;
+  
+  &:hover {
+    color: #FFE600;
+    border-bottom: 2px solid white;
+  }
+}
+
