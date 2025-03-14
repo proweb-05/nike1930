@@ -25,3 +25,35 @@ ul {
   margin: 0 auto;
   padding: 0 15px;
 }
+
+.nav {
+  background: #322E41;
+}
+
+.nav__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.nav__menu {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  
+}
+
+.nav__links {
+  color: #fff;
+  transition: 0.5s;
+  padding: 23px 0;
+  border-bottom: 2px solid transparent;
+  display: block;
+  
+  &:hover {
+    color: #FFE600;
+    border-bottom: 2px solid white;
+  }
+}
+
