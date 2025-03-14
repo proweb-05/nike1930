@@ -90,3 +90,25 @@ ul {
   }
 }
 
+.title {
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #2E2E3C;
+
+  &::after {
+    content: 'All';
+    color: #fff;
+    background: #9A98EA;
+    border-radius: 4px;
+    font-size: 22px;
+    font-weight:500;
+  }
+}
+
+.title_no {
+  &::after {
+    display: none;
+  }
+}
+
