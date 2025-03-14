@@ -25,3 +25,35 @@ ul {
   margin: 0 auto;
   padding: 0 15px;
 }
+
+.header__content {
+  background: url(../img/header-bg.jpg);
+  background-size: cover;
+}
+
+.header__title {
+  font-family: 'Roboto';
+  font-size: 50px;
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+  padding-top: 167px;
+}
+
+.header__desc {
+  font-size: 18px;
+  font-family: 'Roboto';
+  font-weight: 400;
+  color: #fff;
+  padding-top: 15px;
+  text-align: center;
+  padding-bottom: 245px;
+}
+
+.header__strong {
+  font-family: 'Roboto';
+   font-size: 18px;
+   font-weight: 700;
+   color: #fff;
+   display: flex;
+}
